@@ -34,6 +34,9 @@ h1 {
   font-size: 90px;
   margin: 0;
 }
+h2 {
+  font-size: 50px;
+}
 p {
   margin: 0;
   font-weight: 300;
@@ -78,3 +81,12 @@ p {
 .social {
   margin: 20px;
 }
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+.headshot {
+  height: 50%;
+}
+
