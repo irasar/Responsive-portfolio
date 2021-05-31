@@ -17,20 +17,20 @@
       <nav>
         <img
           class="logo"
-          src="src/images/logo-subaway.png"
+          src="src/images/logo (1).png"
           alt="sarah's logo"
         />
         <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Contact Me</li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#project-me">Projects</li>
+          <li><a href="#contact-me">Contact Me</li>
         </ul>
       </nav>
       <div class="hero-area">
         <div class="hero-text">
           <h1>Sarah Iraurgui</h1>
           <p>Full Stack Developer</p>
-          <div class="button">About Me</div>
+          <div class="button"><a href="#about-me">About Me</a></div>
         </div>
         <div class="socials">
           <div>
@@ -81,17 +81,63 @@
         </div>
       </div>
     </section>
-    <section class="sub-section">
-        <div class="information">
-            <h2>About Me</h2>
-            <p>Full stack developer harnessing relational skills learned in the service industry to build quality web applications. Recently earned a certificate from the University of Central Florida in full stack development, where I acquired skills in MERN stack applications and responsive web design. Collaborative solution finder committed to excellence. Skills in JavaScript, CSS, and HTML and strengths in meeting deadlines, adaptability, and creativity.  With each project, I aim to offer outstanding service for my client to deliver an impactful user experience.</p>
-        </div>
-        <div class="headshot-container"></div>
-        <img class="headshot" src="src/images/circle-cropped.png" alt="picture of sarah">
+    <section class="sub-section" id="about-me">
+      <div class="information">
+        <h2>About Me</h2>
+        <p>
+          Full stack developer harnessing relational skills learned in the
+          service industry to build quality web applications.
+        </p>
+      </div>
+      <div class="headshot-container">
+        <img
+          class="headshot"
+          src="src/images/circle-cropped.png"
+          alt="picture of sarah"
+        />
+      </div>
     </section>
-    <section  class="sub-section"></section>
-    <footer></footer>
-
+    <section class="sub-section-alternative" id="project-me">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img class="project-image" src="src/images/thumbnail-subaway.png" alt="Project One Image" />
+          <h3>Project One</h3>
+          <p class="subtext">lojrfri mkdaoi njkddsjk huin</p>
+          <hr />
+          <p class="subtext"> <a class="project-link" href="https://subaway.herokuapp.com/"> View Here
+          </a></p>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="src/images/inkmap.png" alt="Project Two Image" />
+          <h3>Project Two</h3>
+          <p class="subtext">lojrfri mkdaoi njkddsjk huin</p>
+          <hr />
+          <p class="subtext"> <a class="project-link" href="https://crowe828.github.io/inkmap/">
+            View Here</a></p>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="src/images/coding-dock.png" alt="Project Three Image" />
+          <h3>Project Three</h3>
+          <p class="subtext">lojrfri mkdaoi njkddsjk huin</p>
+          <hr />
+          <p class="subtext"><a class="project-link" href="https://projecttwoucf.herokuapp.com/">
+         View Here </a></p>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="src/images/ss4.png" alt="Project Four Image" />
+          <h3>Project Four</h3>
+          <p class="subtext">lojrfri mkdaoi njkddsjk huin</p>
+          <hr />
+          <p class="subtext"> <a class="project-link" href="http://fierce-bastion-14268.herokuapp.com/">
+          View Here</a></p>
+        </div>
+      </div>
+    </section>
+    <footer id="contact-me">
+        <h2>Contact me</h2>
+        <p>iraurguisj@gmail.com</p>
+    </footer>
     <script src="src/app.js"></script>
   </body>
 </html>
