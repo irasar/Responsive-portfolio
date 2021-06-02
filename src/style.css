@@ -7,13 +7,13 @@ section {
   background-color: white;
 }
 .hero {
-  background-color: #1c1d25;
+  background-color: #777e6d;
   height: 100vh;
   color: white;
   font-size: 40px;
 }
 footer {
-  background-color: #1c1d25;
+  background-color: #777e6d;
   color: white;
   text-align: center;
   padding: 80px;
@@ -62,14 +62,14 @@ p {
 .hero-text {
   margin-right: 500px;
   margin-bottom: 200px;
- 
+
 }
 
 .button {
   width: 200px;
   height: 55px;
   border-radius: 30px;
-  background-color: #c4183b;
+  background-color: orangered; 
   text-align: center;
   font-weight: 300;
   font-size: 30px;
@@ -77,7 +77,7 @@ p {
   margin-top: 20px;
 }
 .button:hover {
-  background-color: #fccf4a;
+  background-color: rgb(255, 51, 0);
 }
 .button:active {
   background-color: #a9a9a9;
@@ -88,7 +88,7 @@ p {
 }
 .logo {
   height: 80px;
-  margin: 30px;
+  margin: 20px;
 }
 .social {
   margin: 20px;
@@ -150,7 +150,7 @@ hr {
 }
 .project-link {
  text-decoration: none;
-  color: #c4183b;
+  color: orangered;
 }
 a {
   text-decoration: none;
@@ -175,7 +175,7 @@ display: none;
 }
 ul {
   display: none;
-  background-color: #2b2c38;
+  background-color: #777e6d;
   margin: 0px;
 }
 ul.show {
@@ -184,7 +184,7 @@ ul.show {
 nav {
   display: flex;
   flex-direction: column-reverse;
-  background-color: #2b2c38;
+  background-color: #858b7b;
 }
 .logo {
   display: none;
@@ -204,6 +204,7 @@ nav {
   justify-content: space-around;
   padding: 80px;
 }
+
 
 
 }
