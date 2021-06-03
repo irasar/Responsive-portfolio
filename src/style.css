@@ -46,9 +46,9 @@ p {
   align-items: center;
 }
 .hero-text {
-  /* margin-right: 20px; */
+  margin-right: 20px;
   margin-bottom: 200px;
-  /* margin-left: 60px; */
+  margin-left: 60px;
 }
 .button {
   width: 200px;
@@ -157,7 +157,7 @@ footer {
     background-color: transparent;
     color: white;
     font-size: 30px;
-    margin: 20px;
+    margin: 10px;
     align-self: flex-end;
   }
   ul {
@@ -178,14 +178,20 @@ footer {
     display: none;
   }
   .hero-text {
-    /* margin-left: 80px; */
+    margin-right: 0px;
+    margin-left: 2
+    0px;
     margin-bottom: 160px;
+   
   }
   .socials {
     display: none;
   }
   .social {
     margin: 0px;
+  }
+  h1 {
+    font-size: 75px;
   }
 }
 /* media queries for projects & about section */
