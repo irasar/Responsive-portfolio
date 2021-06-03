@@ -5,17 +5,12 @@ body {
 section {
   background-color: white;
 }
+/* landing page styling */
 .hero {
   background-color: #777e6d;
   height: 100vh;
   color: white;
   font-size: 40px;
-}
-footer {
-  background-color: #777e6d;
-  color: white;
-  text-align: center;
-  padding: 80px;
 }
 nav {
   display: flex;
@@ -42,13 +37,6 @@ h2 {
 p {
   margin: 0;
   font-size: 30px;
-  font-weight: 300;
-}
-.sub-text {
-  font-size: 45px;
-}
-#projects-text {
-  font-size: 18px;
   font-weight: 300;
 }
 .hero-area {
@@ -93,6 +81,17 @@ p {
 .social {
   margin: 20px;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+.hamburger {
+  display: none;
+}
+.hamburger:focus {
+  outline: 0;
+}
+/* About me section styling */
 .sub-section {
   display: flex;
   justify-content: space-around;
@@ -113,6 +112,14 @@ p {
   display: flex;
   align-items: center;
 }
+/* Project section styling */
+.sub-text {
+  font-size: 45px;
+}
+#projects-text {
+  font-size: 18px;
+  font-weight: 300;
+}
 .project-card {
   width: 300px;
   height: 500px;
@@ -122,16 +129,6 @@ p {
 .project-container {
   display: flex;
   justify-content: space-around;
-}
-/* media queries for projects section */
-@media only screen and (max-width: 1000px) {
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .project-card {
-    padding: 10px;
-  }
 }
 .project-image {
   margin-top: 25px;
@@ -145,17 +142,35 @@ hr {
   text-decoration: none;
   color: orangered;
 }
-a {
-  text-decoration: none;
+/* contact section styling */
+footer {
+  background-color: #777e6d;
   color: white;
+  text-align: center;
+  padding: 80px;
 }
-.hamburger {
-  display: none;
+/* media queries for projects & about section */
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project-card {
+    padding: 10px;
+  }
+  .headshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    padding: 80px;
+  }
 }
-.hamburger:focus {
-  outline: 0;
-}
-/* media queries for hero & about section */
+/* media queries for landing page */
 @media only screen and (max-width: 1000px) {
   .hamburger {
     display: block;
@@ -174,7 +189,6 @@ a {
   ul.show {
     display: block;
     background-color: #858b7b;
-    
   }
   nav {
     display: flex;
@@ -188,16 +202,4 @@ a {
     margin-left: 80px;
     margin-bottom: 160px;
   }
-  .headshot-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sub-section {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-    padding: 80px;
-  }
 }
-
