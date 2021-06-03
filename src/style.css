@@ -160,7 +160,9 @@ footer {
     background-color: transparent;
     color: white;
     font-size: 30px;
-    margin: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     align-self: flex-end;
   }
   ul {
@@ -237,4 +239,10 @@ footer {
     padding-top: 10px;
     padding-bottom: 15px;
   }
+}
+/* media queries for contact section */
+@media only screen and (max-width: 1000px) {
+#email-text {
+  margin-left: -60px;
+}
 }
