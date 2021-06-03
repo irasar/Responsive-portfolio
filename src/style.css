@@ -3,7 +3,6 @@ body {
   margin: 0;
 }
 section {
-  /* height: 500px; */
   background-color: white;
 }
 .hero {
@@ -59,10 +58,10 @@ p {
   align-items: center;
 }
 .hero-text {
-  margin-right: 500px;
+  margin-right: 20px;
   margin-bottom: 200px;
+  margin-left: 60px;
 }
-
 .button {
   width: 200px;
   height: 55px;
@@ -84,6 +83,9 @@ p {
 .socials {
   padding-bottom: 200px;
 }
+#resume {
+  font-size: 62px;
+}
 .logo {
   height: 80px;
   margin: 20px;
@@ -103,7 +105,6 @@ p {
   padding: 80px;
 }
 .headshot {
-  /* height: 50%; */
   width: 300px;
   border-radius: 150px;
   margin-left: 80px;
@@ -118,7 +119,6 @@ p {
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
   margin: 10px;
 }
-
 .project-container {
   display: flex;
   justify-content: space-around;
@@ -136,7 +136,6 @@ p {
 .project-image {
   margin-top: 25px;
   width: 250px;
-  /* border-radius: 125px; */
 }
 hr {
   margin-left: 20px;
@@ -156,7 +155,7 @@ a {
 .hamburger:focus {
   outline: 0;
 }
-/* media queries for hero section */
+/* media queries for hero & about section */
 @media only screen and (max-width: 1000px) {
   .hamburger {
     display: block;
@@ -174,6 +173,8 @@ a {
   }
   ul.show {
     display: block;
+    background-color: #858b7b;
+    
   }
   nav {
     display: flex;
@@ -185,7 +186,7 @@ a {
   }
   .hero-text {
     margin-left: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 160px;
   }
   .headshot-container {
     display: flex;
@@ -199,3 +200,4 @@ a {
     padding: 80px;
   }
 }
+
